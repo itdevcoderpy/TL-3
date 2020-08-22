@@ -40,6 +40,14 @@ export function Todolist(props: PropsType) {
             <button onClick={addTaskHandler}>+</button>
         </div>
         <ul>
+
+
+
+
+
+
+
+
             {
                 props.tasks.map(t => {
 
